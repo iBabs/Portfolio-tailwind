@@ -9,34 +9,50 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class ="relative container mx-auto p-6">
+           <!-- navbar -->
+           <nav class ="relative container mx-auto p-6">
 
-        <!-- flex container -->
-            <div class="flex items-center justify-between">
-                <div class="pt-1">
-                  <img src="ZI.png" alt="logo" class="h-24">
+            <!-- flex container -->
+                <div class="flex items-center justify-between">
+                    <div class="pt-1">
+                      <img src="ZI.png" alt="logo" class="h-24">
+                    </div>
+
+                    <!-- menu items -->
+                    <div class="hidden md:flex space-x-6 p-3">
+                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
+                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300">Projects</a>
+                        <a href="socials.html" class="hover:text-greyDark ease-in-out duration-300">Socials</a>
+                        <a href="#" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
+                       
+                    </div>
+
+                    <!-- hamburger -->
+                    <button id="hamburger-btn" class="block md:hidden focus:outline-none">
+                        <span class="hamb-top"></span>
+                        <span class="hamb-middle"></span>
+                        <span class="hamb-bottom"></span>
+                    </button>
                 </div>
-
-                <!-- menu items -->
-                <div class="hidden md:flex space-x-6 p-3">
-                    <a href="index.html" class="hover:text-greyDark ease-in-out duration-300">Home</a>
-                    <a href="#" class="hover:text-greyDark ease-in-out duration-300">Projects</a>
-                    <a href="socials.html" class="hover:text-greyDark ease-in-out duration-300">Socials</a>
-                    <a href="#" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
-                    
+                   
+                <div class="md:hidden">
+                    <div id="menu" 
+                    class="flex-col absolute self-end items-center hidden py-8 mt-7 space-y-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md left-6 right-6">
+                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
+                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300">Projects</a>
+                        <a href="socials.html" class="hover:text-greyDark ease-in-out duration-300">Socials</a>
+                        <a href="#" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
+                       
+                    </div> 
                 </div>
-<a href="#" class="hidden md:block p-3 px-6 pt-2  text-white rounded-full  bg-brightRed hover:bg-brightRedLight ease-linear duration-500"> Contact Me</a>
-
-            </div>
-
-    </nav>
+        </nav>
 
     <main class="flex flex-col justify-center items-center w-full h-full space-y-6">
 
-        <form action="https://formsubmit.co/ibrahimbabalola8@gmail.com" method="post" class="p-5 bg-darkBlue rounded-lg shadow-lg shadow-gray-300 space-y-5 m-6 w-1/2">
+        <form action="https://formsubmit.co/ibrahimbabalola8@gmail.com" method="post" class="p-5 bg-darkBlue rounded-lg shadow-lg shadow-gray-300 space-y-5 m-6 md:w-1/2">
             <div>
                 <label for="email" class="text-red-200 text-1xl font-bold">Email:</label><br />
-                <input type="email" name="email" id="email" class="p-2 focus:bg-slate-100 rounded-lg w-full" placeholder="please enter your name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                <input type="email" name="email" id="email" class="p-2 focus:bg-slate-100 rounded-lg w-full" placeholder="Please enter your name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                   required>
               </div> 
               <div><label for="fname" class="text-red-200 text-1xl font-bold">Name:</label><br />
@@ -45,7 +61,7 @@
               <div><label for="Subject" class="text-red-200 text-1xl font-bold">
                 Subject
               </label> <br>
-              <input type="text" name="subject" id="subject" class="p-2 focus:bg-slate-100 rounded-lg w-full" placeholder="Come and work for Us">
+              <input type="text" name="subject" id="subject" class="p-2 focus:bg-slate-100 rounded-lg w-full" placeholder="Come join our team">
             </div>
               <div>
                 <label for="message" class="text-red-200 text-1xl font-bold">Message</label> <br>
@@ -57,6 +73,32 @@
         </form>
 
     </main>
-    
+    <footer class="bg-greyDark   flex justify-center flex-col items-center">
+
+        <div class="h-full p-24 flex justify-around flex-col md:flex-row space-y-10 md:space-x-6 md:space-y-7">
+            <div class="space-y-6">
+                <img src="ZI.png" alt="site logo" class="h-24 rounded-full">
+            </div>
+            <div>
+                <p class="p-5 border-b-2 border-red-400">
+                    emial: ibrahimbabalola8@gmail.com
+                </p>
+                <p class="p-5 border-b-2 border-red-400">
+                    Phone: +2347011906545
+                </p>
+
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center space-x-8 mx-auto">
+            <a href="https://www.instagram.com/ibabs_smilez/" target="_blank" rel="noopener noreferrer"><img src="icons8-instagram-30.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/ibrahim-babalola-98b5891a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BxV5vj9NKTtuc7KNJcDkT9A%3D%3D" target="_blank" rel="noopener noreferrer"><img src="icons8-linkedin-24.png" alt="linked In"></a>
+            <a href="https://twitter.com/ibrahimbabz6" target="_blank" rel="noopener noreferrer"><img src="icons8-twitter-30.png" alt="twitterlogo"></a>
+            <a href="https://github.com/iBabs/" target="_blank" rel="noopener noreferrer"><img src="icons8-github-30.png" alt="github"></a>
+        </div>
+         <p>Copyright &copy; 2023, All rights Reserved</p>
+            <p> You can find the source code to this page <a href="https://github.com/iBabs/Portfolio-tailwind">here</a></p>
+       </footer>
+    <script src="script.js" async defer></script>
 </body>
 </html>
