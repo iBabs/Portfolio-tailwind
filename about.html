@@ -5,58 +5,247 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> About Me | iBabs</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="icons8-b-67.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/main.css">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>About Me | iBabs</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="icons8-b-67.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
         <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
         <![endif]-->
-        <nav class ="relative container mx-auto p-6">
-
+        <nav class="relative container mx-auto p-6">
             <!-- flex container -->
-                <div class="flex items-center justify-between">
-                    <div class="pt-1">
-                      <img src="ZI.png" alt="logo" class="h-24">
-                    </div>
+            <div class="flex items-center justify-between">
+                <div class="pt-1">
+                    <img src="ZI.png" alt="logo" class="h-24" />
+                </div>
 
-                    <!-- menu items -->
-                    <div class="hidden md:flex space-x-6 p-3">
-                        <a href="index.html" class="hover:text-greyDark ease-in-out duration-300 ">Home</a>
-                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
-                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300">Projects</a>
-                        <a href="about.html" class="hover:text-greyDark ease-in-out duration-300 border-b-4 border-brightRed">About Me</a>
-                       
-                    </div>
-<a href="contact.html" class="hidden md:block p-3 px-6 pt-2  text-white rounded-full  bg-brightRed hover:bg-brightRedLight ease-linear duration-500"> Contact Me</a>
-                    <!-- hamburger -->
-                    <button id="hamburger-btn" class="block md:hidden focus:outline-none">
-                        <span class="hamb-top"></span>
-                        <span class="hamb-middle"></span>
-                        <span class="hamb-bottom"></span>
-                    </button>
+                <!-- menu items -->
+                <div class="hidden md:flex space-x-6 p-3">
+                    <a
+                        href="index.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Home</a
+                    >
+                    <a
+                        href="skills.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Skills</a
+                    >
+                    <a
+                        href="project.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Projects</a
+                    >
+                    <a
+                        href="about.html"
+                        class="hover:text-greyDark ease-in-out duration-300 border-b-4 border-brightRed"
+                        >About Me</a
+                    >
                 </div>
-                   
-                <div class="md:hidden">
-                    <div id="menu" 
-                    class="flex-col absolute self-end items-center hidden py-8 mt-7 space-y-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md left-6 right-6">
-                        <a href="index.html" class="hover:text-greyDark ease-in-out duration-300">Home</a>
-                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
-                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300">Projects</a>
-                        <a href="about.html" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
-                       
-                    </div> 
+                <a
+                    href="contact.html"
+                    class="hidden md:block p-3 px-6 pt-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight ease-linear duration-500"
+                >
+                    Contact Me</a
+                >
+                <!-- hamburger -->
+                <button
+                    id="hamburger-btn"
+                    class="block md:hidden focus:outline-none"
+                >
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div
+                    id="menu"
+                    class="flex-col absolute self-end items-center hidden py-8 mt-7 space-y-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md left-6 right-6"
+                >
+                    <a
+                        href="index.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Home</a
+                    >
+                    <a
+                        href="skills.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Skills</a
+                    >
+                    <a
+                        href="project.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Projects</a
+                    >
+                    <a
+                        href="about.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >About Me</a
+                    >
                 </div>
+            </div>
         </nav>
         <main class="h-full w-full items-center">
-            <img class="md:max-h-72 max-w-72 rounded-full" src="1671055066720.jpg" alt="my picture">
-
+            <div
+                class="p-10 my-6 space-y-6 flex flex-col justify-center items-center"
+            >
+                <div class="flex flex-col justify-center items-center">
+                    <img
+                        class="md:max-h-72 max-w-72 rounded-full"
+                        src="1671055066720.jpg"
+                        alt="my picture"
+                    />
+                    <h3 class="text-2xl font-bold">iBabs</h3>
+                    <p>Ibrahim Akolawole Babalola</p>
+                </div>
+                <div class="px-6 md:px-28">
+                    <h3 class="text-xl font-bold">Personal Background</h3>
+                    <p>
+                        I am a recent graduate from the University of Ibadan,
+                        where I earned my Bachelor of Arts degree in Islamic
+                        Studies in 2019. My passion for technology led me to
+                        start learning web development on my own and I fully
+                        immersed myself in the field in 2021/22. I am
+                        self-taught but have also participated in several
+                        programs, such as the Google Africa Developer
+                        Scholarship and the i4g & Zuri Internship, to enhance my
+                        skills and gain hands-on experience. These opportunities
+                        have allowed me to grow both personally and
+                        professionally and I am excited to continue on this
+                        journey
+                    </p>
+                </div>
+                <div class="px-6 md:px-28">
+                    <h3 class="text-xl font-bold">Professional Background</h3>
+                    <p>
+                        Prior to my career in technology, I have had a diverse
+                        professional background with experience in both sales
+                        and operations. I started my career as a Direct Sales
+                        Executive at United Bank for Africa, where I
+                        successfully sold the bank's products, met monthly
+                        targets, and helped manage customer accounts.
+                        <br>I then
+                        joined Graceco, an FMCG company, as a Graduate Trainee
+                        and later became the Receiving Officer. During my time
+                        at Graceco, I demonstrated my teamwork skills and honed
+                        my leadership abilities. <br> Most recently, I worked at KPMG
+                        as a Field Forensics Officer for the Nigerian National
+                        Petroleum Corporation (NNPC). In this role, I conducted
+                        audits and identified process gaps, and made
+                        recommendations for nationwide improvements. These
+                        experiences have allowed me to develop strong analytical
+                        and problem-solving skills and a commitment to quality
+                        work."
+                    </p>
+                </div>
+                <div class="px-6 md:px-28">
+                    <h3 class="text-xl font-bold">Skills and Expertise</h3>
+                    <p>
+                        I possess a wide range of skills that make me an asset to any team. Some of my key strengths include:
+                       <ul class="list-disc">
+                        <li>Excellent Communication Skills: I am able to effectively communicate complex ideas and collaborate with team members from diverse backgrounds.</li>
+                        <li>Team Work: I am a strong team player and have demonstrated the ability to work well with others to achieve shared goals.</li>
+                        <li> Work Delegation: I am skilled at delegating tasks and ensuring that projects are completed on time and to a high standard.</li>
+                        <li> Microsoft Tools: I have experience using Microsoft Office suite, including Word, Excel, and PowerPoint.</li>
+                        <li> Good Sense of Responsibility: I take ownership of my work and am committed to delivering high-quality results.</li>
+                        <li> Good Understanding of Github and Git Tools: I have a good understanding of version control systems and am proficient in using Github and Git tools.</li>
+                        <li> Excellent Interpersonal relationship: I also pride myself on my excellent interpersonal skills. I am able to build strong relationships with my colleagues and clients and am always looking for ways to improve communication and collaboration.</li>
+                       </ul>
+                    </p>
+                </div>
+                <div class="px-6 md:px-28">
+                    <h3 class="text-xl font-bold">Career goal</h3>
+                    <p>
+                        In the next five years, I aspire to be a senior
+                        full-stack developer and contribute to the development
+                        of impactful projects that make a difference in people's
+                        lives. Additionally, I hope to build a thriving
+                        community of developers, where individuals of all ages
+                        can connect, collaborate, and secure job opportunities
+                        in the industry. I am committed to continuous learning
+                        and growth, both personally and professionally, and
+                        strive to make a positive impact in the field of
+                        technology.
+                    </p>
+                </div>
+                <div class="px-6 md:px-28">
+                    <h3 class="text-xl font-bold">Personal Interest</h3>
+                    <p>
+                        Outside of work, I have a number of personal interests that help me stay balanced and bring joy to my life. Some of my favorite activities include:
+                       <ul class="list-disc">
+                        <li>Football: I am a huge football fan and enjoy playing and watching the game.</li>
+                        <li>Chess: I enjoy playing chess as a way to challenge my mind and improve my problem-solving skills.</li>
+                        <li>Mobile Games: I like to unwind by playing a variety of mobile games.</li>
+                        <li>Arsenal Fan: I am a passionate supporter of Arsenal Football Club.</li>
+                        <li>Art: I have a love for art and enjoy exploring different forms of expression, such as painting and drawing.</li>
+                       </ul>
+                    </p>
+                </div>
+            </div>
         </main>
-        <script src="" async defer></script>
+        <footer class="bg-greyDark flex justify-center flex-col items-center">
+            <div
+                class="h-full p-24 flex justify-around flex-col md:flex-row space-y-10 md:space-x-6 md:space-y-7"
+            >
+                <div class="space-y-6">
+                    <img
+                        src="ZI.png"
+                        alt="site logo"
+                        class="h-24 rounded-full"
+                    />
+                </div>
+                <div>
+                    <p class="p-5 border-b-2 border-red-400">
+                        emial: ibrahimbabalola8@gmail.com
+                    </p>
+                    <p class="p-5 border-b-2 border-red-400">
+                        Phone: +2347011906545
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center space-x-8 mx-auto">
+                <a
+                    href="https://www.instagram.com/ibabs_smilez/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="icons8-instagram-30.png" alt="instagram"
+                /></a>
+                <a
+                    href="https://www.linkedin.com/in/ibrahim-babalola-98b5891a9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BxV5vj9NKTtuc7KNJcDkT9A%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="icons8-linkedin-24.png" alt="linked In"
+                /></a>
+                <a
+                    href="https://twitter.com/ibrahimbabz6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="icons8-twitter-30.png" alt="twitterlogo"
+                /></a>
+                <a
+                    href="https://github.com/iBabs/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img src="icons8-github-30.png" alt="github"
+                /></a>
+            </div>
+            <p>Copyright &copy; 2023, All rights Reserved</p>
+            <p>
+                You can find the source code to this page
+                <a href="https://github.com/iBabs/Portfolio-tailwind">here</a>
+            </p>
+        </footer>
+        <script src="script.js" async defer></script>
     </body>
 </html>
