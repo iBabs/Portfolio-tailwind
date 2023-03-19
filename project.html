@@ -5,87 +5,165 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>My projects | iBabs</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="icons8-b-67.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/main.css">
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="icons8-b-67.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
         <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
         <![endif]-->
-        <nav class ="relative container mx-auto p-6">
-
+        <nav class="relative container mx-auto p-6">
             <!-- flex container -->
-                <div class="flex items-center justify-between">
-                    <div class="pt-1">
-                      <img src="ZI.png" alt="logo" class="h-24">
-                    </div>
+            <div class="flex items-center justify-between">
+                <div class="pt-1">
+                    <img src="ZI.png" alt="logo" class="h-24" />
+                </div>
 
-                    <!-- menu items -->
-                    <div class="hidden md:flex space-x-6 p-3">
-                        <a href="index.html" class="hover:text-greyDark ease-in-out duration-300">Home</a>
-                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
-                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300 border-b-4 border-brightRed">Projects</a>
-                        <a href="about.html" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
-                       
-                    </div>
-<a href="contact.html" class="hidden md:block p-3 px-6 pt-2  text-white rounded-full  bg-brightRed hover:bg-brightRedLight ease-linear duration-500"> Contact Me</a>
-                    <!-- hamburger -->
-                    <button id="hamburger-btn" class="block md:hidden focus:outline-none">
-                        <span class="hamb-top"></span>
-                        <span class="hamb-middle"></span>
-                        <span class="hamb-bottom"></span>
-                    </button>
+                <!-- menu items -->
+                <div class="hidden md:flex space-x-6 p-3">
+                    <a
+                        href="index.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Home</a
+                    >
+                    <a
+                        href="skills.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Skills</a
+                    >
+                    <a
+                        href="project.html"
+                        class="hover:text-greyDark ease-in-out duration-300 border-b-4 border-brightRed"
+                        >Projects</a
+                    >
+                    <a
+                        href="about.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >About Me</a
+                    >
                 </div>
-                   
-                <div class="md:hidden">
-                    <div id="menu" 
-                    class="flex-col absolute self-end items-center hidden py-8 mt-7 space-y-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md left-6 right-6">
-                        <a href="index.html" class="hover:text-greyDark ease-in-out duration-300">Home</a>
-                        <a href="skills.html" class="hover:text-greyDark ease-in-out duration-300">Skills</a>
-                        <a href="project.html" class="hover:text-greyDark ease-in-out duration-300 ">Projects</a>
-                        <a href="about.html" class="hover:text-greyDark ease-in-out duration-300">About Me</a>
-                       
-                    </div> 
+                <a
+                    href="contact.html"
+                    class="hidden md:block p-3 px-6 pt-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight ease-linear duration-500"
+                >
+                    Contact Me</a
+                >
+                <!-- hamburger -->
+                <button
+                    id="hamburger-btn"
+                    class="block md:hidden focus:outline-none"
+                >
+                    <span class="hamb-top"></span>
+                    <span class="hamb-middle"></span>
+                    <span class="hamb-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div
+                    id="menu"
+                    class="flex-col absolute self-end items-center hidden py-8 mt-7 space-y-6 font-bold bg-white sm:w-auto sm:self-center drop-shadow-md left-6 right-6"
+                >
+                    <a
+                        href="index.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Home</a
+                    >
+                    <a
+                        href="skills.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Skills</a
+                    >
+                    <a
+                        href="project.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >Projects</a
+                    >
+                    <a
+                        href="about.html"
+                        class="hover:text-greyDark ease-in-out duration-300"
+                        >About Me</a
+                    >
                 </div>
+            </div>
         </nav>
         <main>
-            <div class="h-full my-10 mx-12 flex flex-col md:flex-row justify-center items-center  md:space-x-5 space-y-5 md:space-y-0">
-              <div class="bg-blue-300 p-5">
-                <iframe src="https://lynxlaboratories.com.ng/" frameborder="2" height="300"></iframe>
-                <div>
-                    <p class="max-w-xs">
-                        A client's website built with in WordPress...
-                    </p>
+            <div
+                class=" my-10 mx-12 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 items-center space-y-5 gap-8 p-5"
+            >
+                <div
+                    class=" p-5 items-center flex flex-col justify-center space-y-3"
+                >
+                    <iframe
+                        src="https://lynxlaboratories.com.ng/"
+                        frameborder="2"
+                        height="250"
+                    ></iframe>
+                    <div class="space-y-8 flex flex-col justify-center ">
+                        <p class="max-w-xs">
+                            A client's website built with in WordPress...
+                        </p>
+                        <a
+                            href="https://lynxlaboratories.com.ng/"
+                            class="p-3 px-6 pt-2 text-center text-white rounded-full bg-brightRed hover:bg-brightRedLight ease-linear duration-500"
+                        >
+                            Visit site</a
+                        >
+                    </div>
                 </div>
-              </div>
-              <div class="bg-blue-300 p-5">
-                <iframe src="https://ibabs.github.io/100days-JavaScript/" frameborder="2" height="300"></iframe>
-                
-                <div>
-                    <p class="max-w-xs">
-                        A personal project with vanilla JavaScrript, with DOM manipulation with jQuery
-                    </p>
+                <div
+                    class=" p-5 items-center flex flex-col justify-center space-y-3"
+                >
+                    <iframe
+                        src="https://lynxlaboratories.com.ng/"
+                        frameborder="2"
+                        height="250"
+                    ></iframe>
+                    <div class="space-y-4">
+                        <p class="max-w-xs">
+                            A client's website built with in WordPress...
+                        </p>
+                        <a
+                            href="https://lynxlaboratories.com.ng/"
+                            class="p-3 px-6 pt-2 text-center text-white rounded-full bg-brightRed hover:bg-brightRedLight ease-linear duration-500"
+                        >
+                            Visit site</a
+                        >
+                    </div>
                 </div>
-              </div>
-              <div class="bg-zinc-200 p-5">
-                <iframe src="https://ibabs.github.io/Landing-page/" frameborder="2" height="300"></iframe>
-                <div>
-                    <p class="max-w-xs">
-                        A responsive CSS page created as part of a the task for Zuri internship completion
-                    </p>
+                <div
+                    class=" p-5 items-center flex flex-col justify-center space-y-3"
+                >
+                    <iframe
+                        src="https://lynxlaboratories.com.ng/"
+                        frameborder="2"
+                        height="250"
+                    ></iframe>
+                    <div class="space-y-4">
+                        <p class="max-w-xs">
+                            A client's website built with in WordPress...
+                        </p>
+                        <a
+                            href="https://lynxlaboratories.com.ng/"
+                            class="p-3 px-6 pt-2 text-center text-white rounded-full bg-brightRed hover:bg-brightRedLight ease-linear duration-500"
+                        >
+                            Visit site</a
+                        >
+                    </div>
                 </div>
-              </div>  
             </div>
-           
         </main>
         <footer class="bg-greyDark flex justify-center flex-col items-center">
             <div
-                class="h-full p-24 flex justify-around flex-col md:flex-row space-y-10 md:space-x-6 md:space-y-7"
+                class="h-full w-screen p-24 flex justify-around flex-col md:flex-row space-y-10 md:space-x-6 md:space-y-7"
             >
                 <div class="space-y-6">
                     <img
